@@ -1,0 +1,353 @@
+/* 
+Color palette 1: https://coolors.co/69140e-14213d-fca311-e5e5e5-d7dedc
+Color palette 2: https://coolors.co/69140e-14213d-fca311-e5e5e5-CDD7D6
+Color palette 3: https://coolors.co/69140e-14213d-fca311-e5e5e5-e2fcef
+*/
+
+:root {
+    --blood-color: #69140e;
+    --blue-color: #14213d;
+    --yellow-color: #fca311;
+    --plat-l-color: #e5e5e5;
+    --plat-b-color: #d7dedc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    /* background-image: linear-gradient(-45deg, red, black, red, black, red, black, red, black, red); */
+    /* background-image: linear-gradient(-45deg, #CDD7D6, #FFFFFF, #CDD7D6, #CDD7D6, #FFFFFF, #CDD7D6, #FFFFFF, #CDD7D6, #FFFFFF, #CDD7D6); */
+    background-image: linear-gradient(-45deg, #E2FCEF, #FFFFFF, #E2FCEF, #FFFFFF, #E2FCEF, #FFFFFF, #E2FCEF);
+    /* background-image: linear-gradient(-45deg, #D9D0DE, #FFFFFF, #D9D0DE, #FFFFFF, #D9D0DE, #FFFFFF, #D9D0DE); */
+    /* background-image: linear-gradient(-45deg, #d7dedc, #d7dedc, #FFFFFF, #d7dedc, #d7dedc, #FFFFFF, #d7dedc, #d7dedc, #FFFFFF, #d7dedc, #d7dedc, #FFFFFF, #d7dedc, #d7dedc); */
+    background-size: 500% 500%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: animate-bg 40s infinite linear;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+a,
+a:link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400 */
+
+.playwrite-it-moderna {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100vh;
+    background-color: #14213d;
+    color: #e5e5e5;
+    /* overflow-x: hidden; */
+    overflow-y: auto;
+}
+
+div.sidebar:nth-child(1) {
+    display: block;
+}
+
+div.logo {
+    margin: 20px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.logo img {
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.navigation-area {
+    width: 100%;
+    margin: 80px auto;
+}
+
+.navigation-area nav ul li {
+    padding: 20px 30px;
+    /* width: 100%; */
+    transition: .5s ease;
+}
+
+.navigation-area nav ul li.active {
+    background-color: #69140e;
+}
+
+.navigation-area nav ul li:hover {
+    border-radius: 25px 0 0 25px;
+    background-color: #69140e;
+}
+
+.site-title {
+    margin-left: 350px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "Allura", cursive;
+    font-size: 5rem;
+}
+
+.main-body-content {
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-body-content section {
+    margin: 20px 10px;
+}
+
+.pc .top-pc-list .pc-items table {
+    border: 1px solid #14213d;
+    border-collapse: collapse;
+    width: 100%;
+    /* padding: 25px 30px; */
+}
+
+.pc .top-pc-list .pc-items table tr {
+    transition: .5s ease;
+}
+
+.pc .top-pc-list .pc-items table tr:hover {
+    color: #e5e5e5;
+    background-color: #14213d;
+}
+
+.pc .top-pc-list .pc-items table th {
+    border-bottom: .2px solid #14213d;
+    font-size: 1.2rem;
+}
+
+.pc .top-pc-list .pc-items table th,
+.pc .top-pc-list .pc-items table td {
+    padding: 15px 25px;
+}
+
+.pc .top-pc-list .pc-items table td {
+    font-size: .8rem;
+}
+
+.table-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+button.add-item {
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #E2FCEF;
+    background-color: #14213d;
+    border: none;
+    border-radius: 25px;
+    transition: .5s ease;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+button.add-item:hover {
+    color: #E2FCEF;
+    background-color: #69140e;
+}
+
+.customers table {
+    border: 1px solid #14213d;
+    border-collapse: collapse;
+    width: 100%;
+    /* padding: 25px 30px; */
+}
+
+.customers table tr {
+    transition: .5s ease;
+}
+
+.customers table tr:hover {
+    color: #e5e5e5;
+    background-color: #14213d;
+}
+
+.customers table th {
+    border-bottom: .2px solid #14213d;
+    font-size: 1.2rem;
+}
+
+.customers table th,
+.customers table td {
+    padding: 15px 25px;
+}
+
+.customers table td {
+    font-size: .8rem;
+}
+
+.action-icons {
+    font-size: 1.2rem !important;
+    cursor: pointer;
+}
+
+/* 
+=========================
+Login Page CSS
+=========================
+*/
+
+.login-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 30%;
+    height: 65%;
+    background-color: #14213d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.login-form .login-logo {
+    width: 35%;
+    margin: 25px 20px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.login-form input:not(#login-btn) {
+    width: 50%;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+#login-btn {
+    padding: 15px 35px;
+    margin: 20px 20px;
+    border-radius: 25px;
+}
+
+span.error-message {
+    color: #E2FCEF;
+}
+
+
+/* 
+=========================
+addcomputer css
+=========================
+*/
+
+.add-form-page-body {
+    margin-left: 350px;
+}
+
+.add-item-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-item-form {
+    width: 40%;
+    height: 60%;
+    background-color: #14213d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.add-item-form .login-logo {
+    width: 35%;
+    margin: 25px 20px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.add-item-form input:not(#login-btn) {
+    width: 50%;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+input.add-item-btn {
+    padding: 15px 35px;
+    margin: 20px 20px;
+    border-radius: 25px;
+    transition: .5s ease;
+}
+
+input.add-item-btn:hover {
+    color: #E2FCEF;
+    background-color: #69140e;
+}
+
+/* 
+=========================
+animations
+=========================
+*/
+
+@keyframes animate-bg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
