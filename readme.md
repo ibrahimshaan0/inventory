@@ -26,7 +26,7 @@ Now some update info:
 
 There are some UI examples:
 
-![login-page](attachment:assets/images/login.png)
+![login-page](attachment:"assets/images/login.png")
 
 <img src="assets/images/login.png">
 <img src="assets/images/dashboard.png">
