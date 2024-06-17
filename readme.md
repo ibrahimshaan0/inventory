@@ -26,6 +26,6 @@ Now some update info:
 
 There are some UI examples:
 
-<img src="assets/images/login.png" style="max-width: 100vw;">
-<img src="assets/images/dashboard.png" style="max-width: 100vw;">
-<img src="assets/images/add-item.png" style="max-width: 100vw;">
+<img src="assets/images/login.png" style="max-width: 90vw; margin: 5px auto">
+<img src="assets/images/dashboard.png" style="max-width: 90vw; margin: 5px auto">
+<img src="assets/images/add-item.png" style="max-width: 90vw; margin: 5px auto">
