@@ -22,3 +22,10 @@ THANK YOU
 
 Now some update info:
     I will update this project further eventurally will fine all the necessery updates in my github profile: https://github.com/ibrahimshaan0 
+
+
+There are some UI examples:
+
+<img src="assets/images/login.png" style="max-width: 100vw;">
+<img src="assets/images/dashboard.png" style="max-width: 100vw;">
+<img src="assets/images/add-item.png" style="max-width: 100vw;">
