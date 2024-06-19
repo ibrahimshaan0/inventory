@@ -333,6 +333,29 @@ input.add-item-btn:hover {
 }
 
 /* 
+
+logout page css 
+
+*/
+
+.logout-body-content {
+    height: 80vh;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* 
 =========================
 animations
 =========================
