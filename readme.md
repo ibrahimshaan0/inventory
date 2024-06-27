@@ -1,7 +1,7 @@
 # Web Dev Lab Project
 ## I have created this project to submit as my web dev lab project
 
-some instructions to use this project 
+`some instructions to use this project` 
 1. use inventory.sql to ge the database
     -> It measns If you want the project fully working then you nee dto setup database by following these process
      -> open phpmyadmin

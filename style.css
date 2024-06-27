@@ -12,6 +12,11 @@ Color palette 3: https://coolors.co/69140e-14213d-fca311-e5e5e5-e2fcef
     --plat-b-color: #d7dedc;
 }
 
+::selection {
+    color: var(--plat-l-color);
+    background-color: var(--blue-color);
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -13,8 +13,8 @@ $fetchUsername = "";
 $fetchPassword = "";
 
 if (isset($_POST["login"])) {
-    $username = $_POST["username"];
-    $password = $_POST["password"];
+    $username = mysqli_real_escape_string($db, $_POST["username"]);
+    $password = mysqli_real_escape_string($db, $_POST["password"]);
 
 
     if ($username == "" || $username == " ") {
